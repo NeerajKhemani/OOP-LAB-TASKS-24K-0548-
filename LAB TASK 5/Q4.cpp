@@ -19,7 +19,7 @@ class BankAccount {
              cout << "Rs." << amount << " is deposited into account." << endl;
         }
         else{
-            cout << "Invalid amount entered." << endl;
+            cout << "Invalid deposit amount." << endl;
         }
     }
 
@@ -34,7 +34,7 @@ class BankAccount {
             }
         }
         else{
-            cout << "Invalid amount entered." << endl;
+            cout << "Invalid withdraw amount." << endl;
         }
     }
     void display(){
