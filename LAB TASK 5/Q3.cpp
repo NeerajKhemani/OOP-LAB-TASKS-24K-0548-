@@ -14,15 +14,15 @@
 using namespace std;
 
 class ValidateString {
-    string inputStr;
+    string Str;
 
 public:
-    ValidateString(const string& str) : inputStr(str) {}
+    ValidateString(const string& str) : Str(str) {}
 
     
     bool isValid() const {
-    for (size_t i = 0; i < inputStr.size(); ++i) {
-        char c = inputStr[i];
+    for (size_t i = 0 ; i < Str.size() ; ++i) {
+        char c = Str[i];
         if ((c < 'A' || c > 'Z') && (c < 'a' || c > 'z')) {
             return false;
         }
